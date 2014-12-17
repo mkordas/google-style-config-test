@@ -7,5 +7,5 @@ jdk:
 
 before_script: git clone https://github.com/checkstyle/checkstyle.git && cd checkstyle && mvn clean install -DskipTests
 
-install: mvn clean test install
+script: mvn clean test install
 
