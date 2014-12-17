@@ -4,6 +4,8 @@ jdk:
   - openjdk7
   - oraclejdk7  
   - oraclejdk8
-  
+
+before_script: git clone https://github.com/checkstyle/checkstyle.git && cd checkstyle && mvn install -DskipTests
+
 install: mvn clean test install
 
