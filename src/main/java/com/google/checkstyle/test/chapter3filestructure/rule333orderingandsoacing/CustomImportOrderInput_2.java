@@ -14,7 +14,6 @@ import com.google.checkstyle.test.chapter2filebasic.rule21filename.*;
 import com.sun.xml.internal.xsom.impl.scd.Iterators; //warn
 
 import com.google.common.reflect.*; //warn
-import org.apache.commons.beanutils.expression.*;
 
 public class CustomImportOrderInput_2 {
 }
