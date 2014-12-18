@@ -18,6 +18,5 @@ import java.io.Reader; //warn
 
 
 import com.google.common.base.Ascii;
-import org.apache.commons.collections.ArrayStack; //warn
 
 public class CustomImportOrderInput_1 {}

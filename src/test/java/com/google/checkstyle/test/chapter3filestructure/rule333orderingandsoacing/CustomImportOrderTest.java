@@ -42,7 +42,6 @@ public class CustomImportOrderTest extends BaseCheckTestSupport{
             "14: " + getCheckMessage(clazz, msgOrder, "STANDARD_JAVA_PACKAGE"),
             "15: " + getCheckMessage(clazz, msgOrder, "STANDARD_JAVA_PACKAGE"),
             "16: " + getCheckMessage(clazz, msgOrder, "STANDARD_JAVA_PACKAGE"),
-            "21: " + getCheckMessage(clazz, msgSeparator, "org.apache.commons.collections.ArrayStack"),
         };
         
         Configuration checkConfig = builder.getCheckConfig("CustomImportOrder");
