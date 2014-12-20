@@ -55,7 +55,7 @@ public class PackageNameTest extends BaseCheckTestSupport{
         Integer[] warnList = builder.getLinesWithWarn(filePath);
         verify(checkConfig, filePath, expected, warnList);
     }
-    
+
     @Test
     public void badPackageName2Test() throws IOException, Exception {
         
@@ -67,7 +67,7 @@ public class PackageNameTest extends BaseCheckTestSupport{
             "1:9: " + msg,
         };
         
-        String filePath = builder.getFilePath("PackageNameInputBad2");
+        String filePath = builder.getFilePath("BadPackageNameInput2");
         
         Integer[] warnList = builder.getLinesWithWarn(filePath);
         verify(checkConfig, filePath, expected, warnList);
@@ -84,7 +84,7 @@ public class PackageNameTest extends BaseCheckTestSupport{
             "1:9: " + msg,
         };
         
-        String filePath = builder.getFilePath("PackageNameInputBad3");
+        String filePath = builder.getFilePath("PackageBadNameInput3");
         
         Integer[] warnList = builder.getLinesWithWarn(filePath);
         verify(checkConfig, filePath, expected, warnList);
