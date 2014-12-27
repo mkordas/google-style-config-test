@@ -5,3 +5,7 @@
 
 #Maven build folder
 target
+
+#run temp files
+google_checks.xml
+
