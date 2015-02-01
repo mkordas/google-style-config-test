@@ -5,7 +5,7 @@ This project is used to check correctness of Checkstyle google_checks.xml config
 The project is consists of packages. One package is refers to one rule from the Google Java Style Guide(http://google-styleguide.googlecode.com/svn/trunk/javaguide.html). One test is refers to one Check which is used in google_checks.xml from checkstyle repository.
 
 'mvn clean test' - to run all tests.
-   
+
 Structure:
 
 Test inputs - src/main/java/com/google/checkstyle/test
