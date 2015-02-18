@@ -6,8 +6,7 @@ jdk:
   - oraclejdk8
 
 before_install: git clone https://github.com/checkstyle/checkstyle.git && cd checkstyle 
-  && mvn clean install -DskipTests -Dlinkcheck.skip=true -Dmaven.javadoc.skip=true 
-        -Dpmd.skip=true -Dfindbugs.skip=true -Dcobertura.skip=true 
+  && mvn clean install -Passembly
   && cd ..
 
 install: mvn clean test
