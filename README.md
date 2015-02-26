@@ -6,7 +6,7 @@ The project is consists of packages. One package is refers to one rule from the 
   
 'mvn clean test' - to run all tests.
 
-Structure: 
+Structure:
 
 Test inputs - src/main/java/com/google/checkstyle/test
 
